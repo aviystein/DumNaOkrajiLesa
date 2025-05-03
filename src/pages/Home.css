@@ -1,0 +1,77 @@
+.home-page {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.hero-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('/public/images/sad.jpeg') center/cover no-repeat;
+  color: white;
+  min-height: 100vh;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.about-section {
+  padding: 8rem 0;
+}
+
+.about-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.about-img {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .about-section {
+    padding: 6rem 0;
+  }
+  
+  .about-img {
+    height: 400px;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 4rem 0;
+  }
+  
+  .about-img {
+    height: 300px;
+  }
+  
+  .about-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+  }
+}
