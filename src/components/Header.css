@@ -72,3 +72,33 @@
   padding: 3px 6px;
   transform: translate(-50%, -50%);
 }
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 16px;
+  }
+
+  .header-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .header-links {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .header-links .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .cart-btn {
+    min-width: auto;
+    margin-left: 0;
+  }
+}

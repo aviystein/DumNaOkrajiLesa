@@ -114,6 +114,16 @@ function Home() {
           </Row>
         </Container>
       </section>
+            <footer className="bg-dark text-white text-center py-4 mt-5">
+        <Container>
+          <Row>
+            <Col>
+              <p className="mb-1">© 2025 Dům na okraji lesa</p>
+              <p className="mb-0">Vytvořeno s láskou k přírodě 🌿</p>
+            </Col>
+          </Row>
+        </Container>
+      </footer>
     </div>
   );
 }
